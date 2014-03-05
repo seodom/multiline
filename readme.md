@@ -42,13 +42,17 @@ Even though it's [slower than string concat](http://jsperf.com/multiline), that 
 
 ## Install
 
-Download [manually](https://github.com/sindresorhus/multiline/releases) or with a package-manager.
-
 #### [npm](https://npmjs.org/package/multiline)
 
 ```
 npm install --save multiline
 ```
+
+### Browser
+
+While it's mainly intended for Node.js, it does work fine in latest Chrome, Firefox, Safari, Opera, and IE8+. Just make sure to use `/*!` instead of `/*` when minifying to prevent the comments from being stripped.
+
+Download [manually](https://github.com/sindresorhus/multiline/releases) or with a package-manager.
 
 #### [Bower](http://bower.io)
 
