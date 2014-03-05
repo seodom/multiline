@@ -78,12 +78,17 @@ var str = multiline(function(){/*
 */});
 
 console.log(str);
-//	<!doctype html>
-//	<html>
-//		<body>
-//			<h1>Hello world!</h1>
-//		</body>
-//	</html>
+```
+
+Which outputs:
+
+```
+<!doctype html>
+<html>
+	<body>
+		<h1>Hello world!</h1>
+	</body>
+</html>
 ```
 
 
