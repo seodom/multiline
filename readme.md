@@ -1,4 +1,4 @@
-# multiline [![Build Status](https://secure.travis-ci.org/sindresorhus/multiline.png?branch=master)](http://travis-ci.org/sindresorhus/multiline)
+# multiline [![Build Status](https://travis-ci.org/sindresorhus/multiline.png?branch=master)](https://travis-ci.org/sindresorhus/multiline)
 
 > Multiline strings in JavaScript
 
