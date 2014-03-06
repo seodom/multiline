@@ -50,7 +50,15 @@ npm install --save multiline
 
 ### Browser
 
-While it's mainly intended for Node.js, it does work fine in latest Chrome, Firefox, Safari, Opera, and IE8+. Just make sure to use `/*!` instead of `/*` when minifying to prevent the comments from being stripped.
+#### Compatibility
+
+- Latest Chrome
+- Firefox >=17
+- Safari >=4
+- Opera >=9
+- Internet Explorer >=6
+
+Make sure to use `/*!` instead of `/*` when minifying to prevent the comments from being stripped.
 
 Download [manually](https://github.com/sindresorhus/multiline/releases) or with a package-manager.
 
