@@ -124,6 +124,32 @@ var str = multiline(/*
 ```
 
 
+## FAQ
+
+### But JS already has multiline strings with `\`?
+
+```js
+var str = 'foo\
+bar';
+```
+
+This is not a multiline string. It's line-continuation. It doesn't preserve newlines, which is the main reason for wanting multiline strings.
+
+You would need to do the following:
+
+```js
+var str = 'foo\n\
+bar';
+```
+
+But then you could just as well concatenate:
+
+```js
+var str = 'foo\n' +
+'bar';
+```
+
+
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
