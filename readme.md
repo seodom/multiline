@@ -149,6 +149,8 @@ var str = 'foo\n' +
 'bar';
 ```
 
+*Note that ES6 will have real [multiline strings](https://github.com/lukehoban/es6features#template-strings)*
+
 
 ## License
 
