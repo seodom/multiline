@@ -13,7 +13,7 @@ var str = '' +
 '<!doctype html>' +
 '<html>' +
 '	<body>' +
-'		<h1>Hello world</h1>' +
+'		<h1>❤ unicorns/h1>' +
 '	</body>' +
 '</html>' +
 '';
@@ -26,7 +26,7 @@ var str = multiline(function(){/*
 <!doctype html>
 <html>
 	<body>
-		<h1>Hello world!</h1>
+		<h1>❤ unicorns</h1>
 	</body>
 </html>
 */});
@@ -84,7 +84,7 @@ var str = multiline(function(){/*
 <!doctype html>
 <html>
 	<body>
-		<h1>Hello world!</h1>
+		<h1>❤ unicorns</h1>
 	</body>
 </html>
 */});
@@ -98,7 +98,7 @@ Which outputs:
 <!doctype html>
 <html>
 	<body>
-		<h1>Hello world!</h1>
+		<h1>❤ unicorns</h1>
 	</body>
 </html>
 ```
@@ -117,7 +117,7 @@ var str = multiline(/*
 <!doctype html>
 <html>
 	<body>
-		<h1>Hello world!</h1>
+		<h1>❤ unicorns</h1>
 	</body>
 </html>
 */);
@@ -149,7 +149,7 @@ var str = 'foo\n' +
 'bar';
 ```
 
-*Note that ES6 will have real [multiline strings](https://github.com/lukehoban/es6features#template-strings)*
+*Note that ES6 will have real [multiline strings](https://github.com/lukehoban/es6features#template-strings).*
 
 
 ## License
